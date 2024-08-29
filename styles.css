@@ -1,0 +1,39 @@
+:root {
+    --menubar-color: rgba(55,55,55,1)
+}
+body {
+    background-color: rgba(45,45,45,1);
+    color: white;
+}
+a {
+    color:white;
+    text-decoration: none;
+    background-color: var(--menubar-color);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 3px 5px;
+}
+p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-block-end: 0em!important;
+    margin-block-start: 0em!important;
+}
+.menubar {
+    background-color: var(--menubar-color);
+    padding: 10px;
+    padding-bottom: 1px!important;
+    color:white;
+    margin-bottom: 10px;
+}
+.menubarbuttons {
+    margin: 5px 0; 
+    background-color: none!important;
+}
+#workinprogress {
+    text-align: center;
+}
