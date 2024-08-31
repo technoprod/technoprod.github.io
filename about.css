@@ -40,6 +40,27 @@ a {
     background-size: cover;
     background-image: linear-gradient(to right, rgba(25,25,65,1), rgba(65,65,85,1))
 }
-#biodata {
-    margin-left: 10px;
+.biodata {
+    display: flex;
+    align-items: center;
+  }
+
+  .biodata img {
+    margin-right: 10px;
+    max-height: 79vh;
+  }
+
+  @media (max-width: 600px) {
+    .biodata {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .biodata img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+.thank-petra {
+    background-image: url(./thank-petra.html);
 }
