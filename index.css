@@ -1,8 +1,11 @@
 #cover {
     border: 5px solid black;
-    height: 300px;
-    width: 100vw;
+    height: 20vh;
+    width: 99%;
     display: block;
+    object-fit: contain;
+    margin: auto;
+    background-color: white;
 }
 p {
     text-align: center;

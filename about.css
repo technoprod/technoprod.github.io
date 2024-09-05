@@ -35,6 +35,11 @@ a {
     background-size: cover;
     background-image: url(./member-fahmi.png);
 }
+#alfad {
+    background-position: left;
+    background-size: cover;
+    background-image: url(./member-alfad.jpg);
+}
 #noimage {
     background-position: top;
     background-size: cover;
@@ -48,6 +53,7 @@ a {
   .biodata img {
     margin-right: 10px;
     max-height: 79vh;
+    max-width: 400px;
   }
 
   @media (max-width: 600px) {
